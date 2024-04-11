@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the logo */
+.logo-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Adjust height as needed */
+}
+
+/* Logo image */
+.logo-container img {
+  max-height: 100%; /* Ensure the image fits within the container */
+  max-width: 100%; /* Ensure the image fits within the container */
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  justify-content: center;
+  width: calc(100% - 80px); /* Adjust the width as needed */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block ;
+  padding: 10px;
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f1ce07;
+}
+
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the columns horizontally */
+}
+
+.column {
+  flex: 1; /* Each column takes equal space */
+  margin: 0 10px; /* Add margin for spacing */
+}
+
+/* Style the list items */
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 10;
+}
+
+li {
+  border: 1px solid #03010188; /* Add border */
+  padding: 10px; /* Add padding */
+  margin-bottom: 10px; /* Add margin between list items */
+}
